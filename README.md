@@ -1,8 +1,10 @@
 # kubernetes-beginner
 ## kube config 
 ```
-$ mkdir -p $HOME/.kube
+$ cd
+$ mkdir .kube
 $ vi .kube/config
+$ export KUBECONFIG=.kube/cofig
 ```
 ## Setting the namespace
 ```
