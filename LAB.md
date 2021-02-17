@@ -46,11 +46,11 @@ spec:
 # kubectl create deployment nginx --image=nginx 
 
 ```
-## Scale pod nginx =3 with kubectl scale command
+## Scale pod nginx =2 with kubectl scale command
 ```
 # kubectl scale deployment.apps/nginx --replicas=3
 ```
-## Scale pod nginx =6 with kubectl edit (replicas=6)
+## Scale pod nginx =1 with kubectl edit (replicas=6)
 ```
 # kubectl edit deployment.apps/nginx
 ```
