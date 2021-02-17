@@ -4,7 +4,7 @@
 $ cd
 $ mkdir .kube
 $ vi .kube/config
-$ export KUBECONFIG=.kube/cofig
+$ export KUBECONFIG=.kube/config
 ```
 ## Setting the namespace
 ```
