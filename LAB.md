@@ -48,9 +48,9 @@ spec:
 ```
 ## Scale pod nginx =2 with kubectl scale command
 ```
-# kubectl scale deployment.apps/nginx --replicas=3
+# kubectl scale deployment.apps/nginx --replicas=2
 ```
-## Scale pod nginx =1 with kubectl edit (replicas=6)
+## Scale pod nginx =1 with kubectl edit (replicas=1)
 ```
 # kubectl edit deployment.apps/nginx
 ```
